@@ -3,6 +3,8 @@ import Q2 from './Q2'
 import Nameadd from './Nameadd'
 import List from './List'
 import Html from './Html'
+import Combined from './Combined'
+
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
       <Nameadd/>
       <List/>
       <Html/>
+      <Combined/>
     </div>
   )
 }
