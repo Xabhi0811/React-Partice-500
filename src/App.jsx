@@ -4,6 +4,7 @@ import Nameadd from './Nameadd'
 import List from './List'
 import Html from './Html'
 import Combined from './Combined'
+import Adult from './Adult'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <List/>
       <Html/>
       <Combined/>
+      <Adult/>
     </div>
   )
 }
