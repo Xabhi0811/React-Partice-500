@@ -5,6 +5,7 @@ import List from './List'
 import Html from './Html'
 import Combined from './Combined'
 import Adult from './Adult'
+import Even from './Even'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Html/>
       <Combined/>
       <Adult/>
+      <Even/>
     </div>
   )
 }
