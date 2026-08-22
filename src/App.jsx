@@ -9,6 +9,7 @@ import Even from './Even'
 import NameMap from './assets/NameMap'
 import NumberMap from './NumberMap'
 import Users from './User'
+import Props from './Props'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <NameMap/>
       <NumberMap/>
       <Users/>
+      <Props/>
     </div>
   )
 }
