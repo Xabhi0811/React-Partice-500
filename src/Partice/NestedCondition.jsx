@@ -1,6 +1,4 @@
-import React from 'react'
-
-const NestedCondition = () => {
+const UserStatus = ({ isLoggedIn, isAdmin }) => {
    return (
     <div>
       {isLoggedIn ? (
@@ -16,7 +14,7 @@ const NestedCondition = () => {
   );
 };
 
-const App = () => {
+const NestedCondition = () => {
   return (
     <div>
       <UserStatus isLoggedIn={true} isAdmin={true} />

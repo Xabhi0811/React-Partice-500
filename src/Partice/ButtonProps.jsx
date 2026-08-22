@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 const Data = ({text}) =>{
     return(
         <button>{text}</button>

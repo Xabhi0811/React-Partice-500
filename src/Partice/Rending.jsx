@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Rending = () => {
+const Message = ({ isLoggedIn }) => {
   return (
     <div>
       {isLoggedIn && <h2>Welcome, Abhishek!</h2>}
@@ -8,7 +6,7 @@ const Rending = () => {
   );
 };
 
-const App = () => {
+const Rending = () => {
   return (
     <div>
       <Message isLoggedIn={true} />

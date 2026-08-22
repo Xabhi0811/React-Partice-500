@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Status = ({isLoggedIn})=>{
     return(
         <div>{isLoggedIn &&<h2>Welcome!</h2>}</div>

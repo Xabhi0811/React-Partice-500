@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 const User = ({user: {name, age, address: {city}}}) =>{
     return (
         <div>
