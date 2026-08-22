@@ -6,6 +6,7 @@ import Html from './Html'
 import Combined from './Combined'
 import Adult from './Adult'
 import Even from './Even'
+import NameMap from './assets/NameMap'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Combined/>
       <Adult/>
       <Even/>
+      <NameMap/>
     </div>
   )
 }
