@@ -15,6 +15,10 @@ import Array from './Partice/Array'
 import ObjectProps from './Partice/ObjectProps'
 import DestrictureProps from './Partice/DestrictureProps'
 import UserDestructuring from './Partice/UserDestructuring'
+import ButtonProps from './Partice/ButtonProps'
+import Button from './Partice/Button'
+import ButttonLog from './Partice/ButttonLog'
+import NestedLopp from './Partice/NestedLopp'
 
 
 const App = () => {
@@ -37,6 +41,10 @@ const App = () => {
       <ObjectProps/>
       <DestrictureProps/>
       <UserDestructuring/>
+      <ButtonProps/>
+      <Button/>
+      <ButttonLog/>
+      <NestedLopp/>
     </div>
     
   )
