@@ -1,10 +1,8 @@
-import React from "react";
+const Greeting = (props) => {
+  return <h1>Name is, {props.name}!</h1>;
+};
 
 const Props = () => {
-  const Greeting = (props) => {
-    return <h1>Name is, {props.name}!</h1>;
-  };
-
   return (
     <div>
       <Greeting name="Abhishek" />

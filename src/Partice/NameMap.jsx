@@ -1,4 +1,3 @@
-import React from 'react'
 
 const NameMap = () => {
     const abhi = ["Abhishek" , "Rashi", "Apoorva" , "Bittu"]
