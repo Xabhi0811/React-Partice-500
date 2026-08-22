@@ -12,6 +12,9 @@ import Props from './Partice/Props'
 import PropsNumber from './Partice/PropsNumber'
 import StringProps from './Partice/StringProps'
 import Array from './Partice/Array'
+import ObjectProps from './Partice/ObjectProps'
+import DestrictureProps from './Partice/DestrictureProps'
+import UserDestructuring from './Partice/UserDestructuring'
 
 
 const App = () => {
@@ -31,7 +34,11 @@ const App = () => {
       <PropsNumber/>
       <StringProps/>
       <Array/>
+      <ObjectProps/>
+      <DestrictureProps/>
+      <UserDestructuring/>
     </div>
+    
   )
 }
 
