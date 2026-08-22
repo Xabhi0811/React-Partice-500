@@ -7,6 +7,7 @@ import Combined from './Combined'
 import Adult from './Adult'
 import Even from './Even'
 import NameMap from './assets/NameMap'
+import NumberMap from './NumberMap'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Adult/>
       <Even/>
       <NameMap/>
+      <NumberMap/>
     </div>
   )
 }
