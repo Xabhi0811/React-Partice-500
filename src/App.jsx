@@ -1,15 +1,16 @@
 import React from 'react'
-import Q2 from './Q2'
-import Nameadd from './Nameadd'
-import List from './List'
-import Html from './Html'
-import Combined from './Combined'
-import Adult from './Adult'
-import Even from './Even'
-import NameMap from './assets/NameMap'
-import NumberMap from './NumberMap'
-import Users from './User'
-import Props from './Props'
+import Q2 from './Partice/Q2'
+import Nameadd from './Partice/Nameadd'
+import List from './Partice/List'
+import Html from './Partice/Html'
+import Combined from './Partice/Combined'
+import Adult from './Partice/Adult'
+import Even from './Partice/Even'
+import NameMap from './Partice/NameMap'
+import NumberMap from './Partice/NumberMap'
+import Users from './Partice/User'
+import Props from './Partice/Props'
+import PropsNumber from './Partice/PropsNumber'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <NumberMap/>
       <Users/>
       <Props/>
+      <PropsNumber/>
     </div>
   )
 }
