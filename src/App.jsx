@@ -19,9 +19,17 @@ import ButtonProps from './Partice/ButtonProps'
 import Button from './Partice/Button'
 import ButttonLog from './Partice/ButttonLog'
 import NestedLopp from './Partice/NestedLopp'
+import ArrayLength from './Partice/ArrayLength'
+import Value from './Partice/Value'
+import Mult from './Partice/Mult'
+import Boolean from './Partice/Boolean'
+import Statement from './Partice/Statement'
+import And from './Partice/And'
 
 
 const App = () => {
+  const fruits = ["Apple", "Banana", "Mango", "Orange"]
+
   return (
     <div>
       <Q2/>
@@ -45,6 +53,12 @@ const App = () => {
       <Button/>
       <ButttonLog/>
       <NestedLopp/>
+      <ArrayLength items={fruits}/>
+      <Value/>
+      <Mult/>
+      <Boolean/>
+      <Statement/>
+      <And/>
     </div>
     
   )
