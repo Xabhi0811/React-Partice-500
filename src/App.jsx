@@ -25,6 +25,7 @@ import Mult from './Partice/Mult'
 import Boolean from './Partice/Boolean'
 import Statement from './Partice/Statement'
 import And from './Partice/And'
+import NestedCondition from './Partice/NestedCondition'
 
 
 const App = () => {
@@ -59,6 +60,7 @@ const App = () => {
       <Boolean/>
       <Statement/>
       <And/>
+      <NestedCondition/>
     </div>
     
   )
