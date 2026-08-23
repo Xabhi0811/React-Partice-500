@@ -380,7 +380,7 @@ import Q351 from "./Partice/Q351";
 import Q352 from "./Partice/Q352";
 import Q353 from "./Partice/Q353";
 import Q354 from "./Partice/Q354";
-import Exercises from "./exercises";
+import Exercises from "./Partice/exercises";
 
 const App = () => {
   const fruits = ["Apple", "Banana", "Mango", "Orange"];
