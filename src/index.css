@@ -161,3 +161,52 @@ code {
   border-radius: 4px;
   border: 1px solid var(--border);
 }
+
+.hook-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  text-align: left;
+}
+
+.hook-tasks header {
+  padding: 16px 0;
+}
+
+.hook-tasks header h1 {
+  margin: 0 0 8px;
+}
+
+.hook-task {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--social-bg);
+}
+
+.hook-task h2 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.hook-demo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hook-demo input,
+.hook-demo button {
+  max-width: 100%;
+  padding: 6px 8px;
+}
+
+.hook-demo output {
+  color: var(--text-h);
+  font-family: var(--mono);
+}

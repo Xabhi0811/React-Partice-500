@@ -2,7 +2,7 @@
 
 This is my self-directed React practice repository. I built it by solving hundreds of small questions and exercises on my own, turning each concept into a working component that I can run and revisit.
 
-The collection is growing toward **500+ React questions and hands-on exercises**. It currently contains **354 numbered question components** and **401 practice components** in total.
+The collection is growing toward **500+ React questions and hands-on exercises**.
 
 ## What I Practice
 
@@ -17,24 +17,6 @@ The collection is growing toward **500+ React questions and hands-on exercises**
 - `useRef` and values that persist without triggering a re-render
 - Practical mini-exercises such as counters, calculators, clocks, games, converters, and form tools
 
-## Project Structure
-
-Most practice files live in [`src/Partice`](src/Partice). The numbered exercises follow the pattern `Q1.jsx` through `Q354.jsx`, making it easy to continue the sequence as new questions are added.
-
-The exercises are rendered from [`src/App.jsx`](src/App.jsx), so running the application provides a single place to review the work and compare different React techniques.
-
-## Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
-Other useful commands:
-
-```bash
-npm run lint
-npm run build
 ```
 
 ## Purpose

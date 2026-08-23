@@ -381,6 +381,7 @@ import Q352 from "./Partice/Q352";
 import Q353 from "./Partice/Q353";
 import Q354 from "./Partice/Q354";
 import Exercises from "./Partice/exercises";
+import HookTasks from "./Partice/HookTasks";
 
 const App = () => {
   const fruits = ["Apple", "Banana", "Mango", "Orange"];
@@ -770,6 +771,7 @@ const App = () => {
       <Q353 />
       <Q354 />
       <Exercises />
+      <HookTasks />
     </div>
   );
 };
