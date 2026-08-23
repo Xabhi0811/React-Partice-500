@@ -50,6 +50,6 @@ const File = () => {
       <Welcome />
     </div>
   );
-}
+};
 
-export default File
+export default File;

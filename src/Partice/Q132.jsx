@@ -1,9 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
 const Q132 = () => {
-  const [enabled, setEnabled] = useState(false)
-  useEffect(() => console.log('Boolean changed', enabled), [enabled])
-  return <button onClick={() => setEnabled((value) => !value)}>{String(enabled)}</button>
-}
+  const [enabled, setEnabled] = useState(false);
+  useEffect(() => console.log("Boolean changed", enabled), [enabled]);
+  return (
+    <button onClick={() => setEnabled((value) => !value)}>
+      {String(enabled)}
+    </button>
+  );
+};
 
-export default Q132
+export default Q132;

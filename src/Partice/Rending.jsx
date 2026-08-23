@@ -1,9 +1,5 @@
 const Message = ({ isLoggedIn }) => {
-  return (
-    <div>
-      {isLoggedIn && <h2>Welcome, Abhishek!</h2>}
-    </div>
-  );
+  return <div>{isLoggedIn && <h2>Welcome, Abhishek!</h2>}</div>;
 };
 
 const Rending = () => {
@@ -13,6 +9,6 @@ const Rending = () => {
       <Message isLoggedIn={false} />
     </div>
   );
-}
+};
 
-export default Rending
+export default Rending;

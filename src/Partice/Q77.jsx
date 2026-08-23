@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const EventArgument = () => {
-  const [message, setMessage] = useState('')
-  const choose = (value) => setMessage(value)
+  const [message, setMessage] = useState("");
+  const choose = (value) => setMessage(value);
 
-  return <button onClick={() => choose('Selected')}>{message || 'Choose'}</button>
-}
+  return (
+    <button onClick={() => choose("Selected")}>{message || "Choose"}</button>
+  );
+};
 
-export default EventArgument
+export default EventArgument;

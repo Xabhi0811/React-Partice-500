@@ -1,10 +1,9 @@
-
 const Q1 = () => {
   return (
     <div>
       <h1>Hello Abhi</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Q1
+export default Q1;

@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const StateFromProps = ({ initialValue }) => {
-  const [value, setValue] = useState(initialValue)
+  const [value, setValue] = useState(initialValue);
 
-  return <button onClick={() => setValue((current) => current + 1)}>Value: {value}</button>
-}
+  return (
+    <button onClick={() => setValue((current) => current + 1)}>
+      Value: {value}
+    </button>
+  );
+};
 
-const StateFromPropsExample = () => <StateFromProps initialValue={10} />
+const StateFromPropsExample = () => <StateFromProps initialValue={10} />;
 
-export default StateFromPropsExample
+export default StateFromPropsExample;

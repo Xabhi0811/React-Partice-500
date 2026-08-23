@@ -1,2 +1,2 @@
-const Q213 = () => <p>useState is enough when state transitions are simple.</p>
-export default Q213
+const Q213 = () => <p>useState is enough when state transitions are simple.</p>;
+export default Q213;

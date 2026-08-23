@@ -1,4 +1,3 @@
-
 const Child = (props) => {
   return (
     <div>

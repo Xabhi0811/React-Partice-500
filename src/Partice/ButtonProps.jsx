@@ -1,8 +1,6 @@
-const Data = ({text}) =>{
-    return(
-        <button>{text}</button>
-    )
-}
+const Data = ({ text }) => {
+  return <button>{text}</button>;
+};
 
 const ButtonProps = () => {
   return (
@@ -11,7 +9,7 @@ const ButtonProps = () => {
       <Data text="Sign Up" />
       <Data text="Logout" />
     </div>
-  )
-}
+  );
+};
 
-export default ButtonProps
+export default ButtonProps;

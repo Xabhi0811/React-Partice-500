@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const AddArrayItem = () => {
-  const [items, setItems] = useState(['Apple'])
+  const [items, setItems] = useState(["Apple"]);
 
   return (
     <section>
-      <p>{items.join(', ')}</p>
-      <button onClick={() => setItems((current) => [...current, 'Banana'])}>Add item</button>
+      <p>{items.join(", ")}</p>
+      <button onClick={() => setItems((current) => [...current, "Banana"])}>
+        Add item
+      </button>
     </section>
-  )
-}
+  );
+};
 
-export default AddArrayItem
+export default AddArrayItem;

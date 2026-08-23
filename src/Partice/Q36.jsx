@@ -1,13 +1,13 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const SubmitStateValue = () => {
-  const [value, setValue] = useState('')
-  const [result, setResult] = useState('')
+  const [value, setValue] = useState("");
+  const [result, setResult] = useState("");
 
   const handleSubmit = (event) => {
-    event.preventDefault()
-    setResult(value)
-  }
+    event.preventDefault();
+    setResult(value);
+  };
 
   return (
     <form onSubmit={handleSubmit}>
@@ -15,7 +15,7 @@ const SubmitStateValue = () => {
       <button type="submit">Read value</button>
       <p>{result}</p>
     </form>
-  )
-}
+  );
+};
 
-export default SubmitStateValue
+export default SubmitStateValue;

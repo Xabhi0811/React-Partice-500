@@ -1,15 +1,23 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const SeparateFormState = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
   return (
     <form>
-      <input value={name} onChange={(event) => setName(event.target.value)} placeholder="Name" />
-      <input value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Email" />
+      <input
+        value={name}
+        onChange={(event) => setName(event.target.value)}
+        placeholder="Name"
+      />
+      <input
+        value={email}
+        onChange={(event) => setEmail(event.target.value)}
+        placeholder="Email"
+      />
     </form>
-  )
-}
+  );
+};
 
-export default SeparateFormState
+export default SeparateFormState;

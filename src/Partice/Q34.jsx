@@ -1,13 +1,13 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const ControlledFormSubmit = () => {
-  const [name, setName] = useState('')
-  const [submitted, setSubmitted] = useState('')
+  const [name, setName] = useState("");
+  const [submitted, setSubmitted] = useState("");
 
   const handleSubmit = (event) => {
-    event.preventDefault()
-    setSubmitted(name)
-  }
+    event.preventDefault();
+    setSubmitted(name);
+  };
 
   return (
     <form onSubmit={handleSubmit}>
@@ -15,7 +15,7 @@ const ControlledFormSubmit = () => {
       <button type="submit">Submit</button>
       <p>{submitted}</p>
     </form>
-  )
-}
+  );
+};
 
-export default ControlledFormSubmit
+export default ControlledFormSubmit;

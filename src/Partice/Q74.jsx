@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const EventObject = () => {
-  const [type, setType] = useState('')
+  const [type, setType] = useState("");
 
-  const handleChange = (event) => setType(event.type)
+  const handleChange = (event) => setType(event.type);
 
-  return <input onChange={handleChange} placeholder={type || 'Type here'} />
-}
+  return <input onChange={handleChange} placeholder={type || "Type here"} />;
+};
 
-export default EventObject
+export default EventObject;

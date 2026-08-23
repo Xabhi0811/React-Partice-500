@@ -1,6 +1,6 @@
 const Card = ({ children }) => {
-  return <article>{children}</article>
-}
+  return <article>{children}</article>;
+};
 
 const Question5 = () => {
   return (
@@ -11,7 +11,7 @@ const Question5 = () => {
         <p>This content is provided through children.</p>
       </Card>
     </section>
-  )
-}
+  );
+};
 
-export default Question5
+export default Question5;

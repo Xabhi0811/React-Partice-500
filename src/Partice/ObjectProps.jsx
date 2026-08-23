@@ -4,9 +4,7 @@ const Child = (props) => {
       <h2>Name: {props.user.name}</h2>
       <h2>Age: {props.user.age}</h2>
 
-      <button onClick={props.handleClick}>
-        Click Me
-      </button>
+      <button onClick={props.handleClick}>Click Me</button>
     </div>
   );
 };

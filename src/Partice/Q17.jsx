@@ -1,13 +1,13 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const ThreeUpdates = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   const incrementThreeTimes = () => {
-    setCount(count + 1)
-    setCount(count + 1)
-    setCount(count + 1)
-  }
+    setCount(count + 1);
+    setCount(count + 1);
+    setCount(count + 1);
+  };
 
   return (
     <section>
@@ -15,7 +15,7 @@ const ThreeUpdates = () => {
       <p>React batches these calls, so they use the same current count.</p>
       <button onClick={incrementThreeTimes}>Add three</button>
     </section>
-  )
-}
+  );
+};
 
-export default ThreeUpdates
+export default ThreeUpdates;

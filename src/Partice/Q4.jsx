@@ -1,6 +1,6 @@
 const Child = ({ label }) => {
-  return <p>{label}</p>
-}
+  return <p>{label}</p>;
+};
 
 const Question2 = () => {
   return (
@@ -9,7 +9,7 @@ const Question2 = () => {
       <Child label="First child" />
       <Child label="Second child" />
     </section>
-  )
-}
+  );
+};
 
-export default Question2
+export default Question2;

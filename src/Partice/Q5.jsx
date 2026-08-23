@@ -1,6 +1,6 @@
-const Title = ({ children }) => <h3>{children}</h3>
-const Description = ({ children }) => <p>{children}</p>
-const Action = ({ children }) => <button type="button">{children}</button>
+const Title = ({ children }) => <h3>{children}</h3>;
+const Description = ({ children }) => <p>{children}</p>;
+const Action = ({ children }) => <button type="button">{children}</button>;
 
 const Question3 = () => {
   return (
@@ -10,7 +10,7 @@ const Question3 = () => {
       <Description>Reusable description</Description>
       <Action>Continue</Action>
     </section>
-  )
-}
+  );
+};
 
-export default Question3
+export default Question3;

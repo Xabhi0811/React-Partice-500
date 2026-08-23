@@ -1,12 +1,12 @@
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 const Q102 = () => {
   useEffect(() => {
-    const handler = () => console.log('event')
-    window.addEventListener('click', handler)
-    return () => window.removeEventListener('click', handler)
-  }, [])
-  return <p>Event listener active</p>
-}
+    const handler = () => console.log("event");
+    window.addEventListener("click", handler);
+    return () => window.removeEventListener("click", handler);
+  }, []);
+  return <p>Event listener active</p>;
+};
 
-export default Q102
+export default Q102;

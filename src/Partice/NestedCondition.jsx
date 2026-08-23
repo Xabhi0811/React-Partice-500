@@ -1,5 +1,5 @@
 const UserStatus = ({ isLoggedIn, isAdmin }) => {
-   return (
+  return (
     <div>
       {isLoggedIn ? (
         isAdmin ? (
@@ -24,5 +24,4 @@ const NestedCondition = () => {
   );
 };
 
-
-export default NestedCondition
+export default NestedCondition;

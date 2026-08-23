@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 const Q83 = () => {
-  useEffect(() => {})
-  return <p>useEffect imported</p>
-}
+  useEffect(() => {});
+  return <p>useEffect imported</p>;
+};
 
-export default Q83
+export default Q83;

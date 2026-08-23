@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const EventTargetValue = () => {
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState("");
 
-  return <input value={value} onChange={(event) => setValue(event.target.value)} />
-}
+  return (
+    <input value={value} onChange={(event) => setValue(event.target.value)} />
+  );
+};
 
-export default EventTargetValue
+export default EventTargetValue;

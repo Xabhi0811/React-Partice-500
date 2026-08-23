@@ -1,5 +1,10 @@
-import { createContext, useContext } from 'react'
+import { createContext, useContext } from "react";
 
-const User = createContext({ name: 'Guest' })
-const Q185 = () => <User.Provider value={{ name: 'Abhi' }}><p>{useContext(User).name}</p></User.Provider>
-export default Q185
+const User = createContext({ name: "Guest" });
+const View = () => <p>{useContext(User).name}</p>;
+const Q185 = () => (
+  <User.Provider value={{ name: "Abhi" }}>
+    <View />
+  </User.Provider>
+);
+export default Q185;

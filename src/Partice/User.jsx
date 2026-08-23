@@ -1,4 +1,3 @@
-
 const Users = () => {
   const users = [
     { id: 1, name: "Abhishek" },

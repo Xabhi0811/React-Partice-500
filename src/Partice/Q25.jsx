@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const ControlledInput = () => {
-  const [name, setName] = useState('')
+  const [name, setName] = useState("");
 
   return (
     <section>
@@ -9,9 +9,9 @@ const ControlledInput = () => {
         Name
         <input value={name} onChange={(event) => setName(event.target.value)} />
       </label>
-      <p>Hello, {name || 'guest'}</p>
+      <p>Hello, {name || "guest"}</p>
     </section>
-  )
-}
+  );
+};
 
-export default ControlledInput
+export default ControlledInput;

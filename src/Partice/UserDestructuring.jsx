@@ -11,11 +11,7 @@ const User = ({ name, age, city }) => {
 const UserDestructuring = () => {
   return (
     <div>
-      <User
-        name="Abhishek"
-        age={18}
-        city="Bhopal"
-      />
+      <User name="Abhishek" age={18} city="Bhopal" />
     </div>
   );
 };

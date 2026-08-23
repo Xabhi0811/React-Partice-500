@@ -1,16 +1,19 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const PreventDuplicate = () => {
-  const [items, setItems] = useState(['Apple'])
+  const [items, setItems] = useState(["Apple"]);
 
-  const addApple = () => setItems((current) => current.includes('Apple') ? current : [...current, 'Apple'])
+  const addApple = () =>
+    setItems((current) =>
+      current.includes("Apple") ? current : [...current, "Apple"],
+    );
 
   return (
     <section>
-      <p>{items.join(', ')}</p>
+      <p>{items.join(", ")}</p>
       <button onClick={addApple}>Add Apple</button>
     </section>
-  )
-}
+  );
+};
 
-export default PreventDuplicate
+export default PreventDuplicate;

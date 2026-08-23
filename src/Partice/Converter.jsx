@@ -1,12 +1,11 @@
-
 const Converter = () => {
   return (
     <>
       <div className="container">
-  <h1 className="title">Hello</h1>
-</div>
+        <h1 className="title">Hello</h1>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Converter
+export default Converter;

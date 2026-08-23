@@ -109,3 +109,55 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  text-align: left;
+}
+
+.exercise-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 92px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--social-bg);
+}
+
+.exercise-card h2 {
+  flex-basis: 100%;
+  font-size: 17px;
+}
+
+.exercise-card input,
+.exercise-card textarea,
+.exercise-card select,
+.exercise-card button {
+  max-width: 100%;
+  padding: 6px 8px;
+}
+
+.exercise-card textarea {
+  width: 100%;
+  min-height: 54px;
+}
+
+.exercise-card output,
+.exercise-card span,
+.exercise-card time {
+  font-family: var(--mono);
+  color: var(--text-h);
+}
+
+.color-preview {
+  width: 42px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}

@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 const Q90 = () => {
-  useEffect(() => console.log('No dependency array: every render'))
-  return <p>useEffect callback without array runs after every render</p>
-}
+  useEffect(() => console.log("No dependency array: every render"));
+  return <p>useEffect callback without array runs after every render</p>;
+};
 
-export default Q90
+export default Q90;

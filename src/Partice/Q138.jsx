@@ -1,11 +1,11 @@
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 const Q138 = () => {
   useEffect(() => {
-    const timer = setInterval(() => {}, 1000)
-    return () => clearInterval(timer)
-  }, [])
-  return <p>Subscription cleanup ready</p>
-}
+    const timer = setInterval(() => {}, 1000);
+    return () => clearInterval(timer);
+  }, []);
+  return <p>Subscription cleanup ready</p>;
+};
 
-export default Q138
+export default Q138;

@@ -1,5 +1,10 @@
-import { createContext, useContext } from 'react'
+import { createContext, useContext } from "react";
 
-const Context = createContext('')
-const Q179 = () => <Context.Provider value="Hello"><p>{useContext(Context)}</p></Context.Provider>
-export default Q179
+const Context = createContext("");
+const View = () => <p>{useContext(Context)}</p>;
+const Q179 = () => (
+  <Context.Provider value="Hello">
+    <View />
+  </Context.Provider>
+);
+export default Q179;

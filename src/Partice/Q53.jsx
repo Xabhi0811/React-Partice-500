@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const ArrayState = () => {
-  const [items] = useState(['Apple', 'Banana'])
+  const [items] = useState(["Apple", "Banana"]);
 
-  return <p>{items.join(', ')}</p>
-}
+  return <p>{items.join(", ")}</p>;
+};
 
-export default ArrayState
+export default ArrayState;

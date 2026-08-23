@@ -1,8 +1,6 @@
-
 const Nameadd = () => {
- const abhi = "Abhishek";
- return <h2>Hello+{abhi}</h2>
- 
-}
+  const abhi = "Abhishek";
+  return <h2>Hello+{abhi}</h2>;
+};
 
-export default Nameadd
+export default Nameadd;

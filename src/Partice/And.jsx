@@ -1,8 +1,6 @@
-const Status = ({isLoggedIn})=>{
-    return(
-        <div>{isLoggedIn &&<h2>Welcome!</h2>}</div>
-    )
-}
+const Status = ({ isLoggedIn }) => {
+  return <div>{isLoggedIn && <h2>Welcome!</h2>}</div>;
+};
 
 const And = () => {
   return (
@@ -10,7 +8,7 @@ const And = () => {
       <Status isLoggedIn={true} />
       <Status isLoggedIn={false} />
     </div>
-  )
-}
+  );
+};
 
-export default And
+export default And;

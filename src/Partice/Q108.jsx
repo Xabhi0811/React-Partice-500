@@ -1,9 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
 const Q108 = () => {
-  const [data, setData] = useState([])
-  useEffect(() => { fetch('/people.json').then((response) => response.json()).then(setData) }, [])
-  return <p>Data stored: {data.length}</p>
-}
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("/people.json")
+      .then((response) => response.json())
+      .then(setData);
+  }, []);
+  return <p>Data stored: {data.length}</p>;
+};
 
-export default Q108
+export default Q108;

@@ -1,9 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 const PasswordInput = () => {
-  const [password, setPassword] = useState('')
+  const [password, setPassword] = useState("");
 
-  return <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
-}
+  return (
+    <input
+      type="password"
+      value={password}
+      onChange={(event) => setPassword(event.target.value)}
+    />
+  );
+};
 
-export default PasswordInput
+export default PasswordInput;
