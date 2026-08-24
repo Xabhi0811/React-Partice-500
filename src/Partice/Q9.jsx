@@ -16,7 +16,7 @@ const Profile = ({ name, skills, available }) => {
 
 const Question7 = () => {
   const profile = {
-    name: "Abhishek",
+    name: "User",
     skills: ["React", "JavaScript", "CSS"],
     available: true,
   };

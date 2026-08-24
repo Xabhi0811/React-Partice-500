@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const PersonObjectState = () => {
-  const [person] = useState({ name: "Abhishek", age: 18 });
+  const [person] = useState({ name: "User", age: 18 });
 
   return (
     <p>

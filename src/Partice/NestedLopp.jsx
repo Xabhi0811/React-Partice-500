@@ -16,7 +16,7 @@ const User = ({
 
 const NestedLopp = () => {
   const userData = {
-    name: "abhishek",
+    name: "User",
     age: 18,
     address: {
       city: "Bhopal",

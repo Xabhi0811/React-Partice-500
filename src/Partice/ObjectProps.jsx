@@ -11,7 +11,7 @@ const Child = (props) => {
 
 const ObjectProps = () => {
   const user = {
-    name: "Abhishek",
+    name: "User",
     age: 18,
   };
 

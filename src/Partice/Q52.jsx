@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const PreserveObjectProperties = () => {
-  const [user, setUser] = useState({ name: "Abhishek", age: 18 });
+  const [user, setUser] = useState({ name: "User", age: 18 });
 
   const updateAge = () => setUser((current) => ({ ...current, age: 19 }));
 

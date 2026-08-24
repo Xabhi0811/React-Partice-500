@@ -21,7 +21,7 @@ const IncorrectTags = () => {
 };
 
 const JavaScriptOutside = () => {
-  const name = "Abhishek";
+  const name = "User";
 
   return <h1>Hello, {name}</h1>;
 };

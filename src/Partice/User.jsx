@@ -1,6 +1,6 @@
 const Users = () => {
   const users = [
-    { id: 1, name: "Abhishek" },
+    { id: 1, name: "User" },
     { id: 2, name: "Rahul" },
     { id: 3, name: "Aman" },
     { id: 4, name: "Rohit" },

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const UpdateAge = () => {
-  const [person, setPerson] = useState({ name: "Abhishek", age: 18 });
+  const [person, setPerson] = useState({ name: "User", age: 18 });
 
   return (
     <button

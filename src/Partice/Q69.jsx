@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ImmutableObjectMutation = () => {
-  const [user, setUser] = useState({ name: "Abhishek", age: 18 });
+  const [user, setUser] = useState({ name: "User", age: 18 });
 
   const updateName = () =>
     setUser((current) => ({ ...current, name: "Updated" }));

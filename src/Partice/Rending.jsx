@@ -1,5 +1,5 @@
 const Message = ({ isLoggedIn }) => {
-  return <div>{isLoggedIn && <h2>Welcome, Abhishek!</h2>}</div>;
+  return <div>{isLoggedIn && <h2>Welcome, User!</h2>}</div>;
 };
 
 const Rending = () => {

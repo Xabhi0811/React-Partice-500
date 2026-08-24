@@ -1,5 +1,5 @@
 const NameMap = () => {
-  const abhi = ["Abhishek", "Rashi", "Apoorva", "Bittu"];
+  const abhi = ["User", "User Three", "Apoorva", "User Two"];
   return (
     <div>
       <h1>Name list</h1>

@@ -10,7 +10,7 @@ const Child = (props) => {
 const StringProps = () => {
   return (
     <div>
-      <Child name="Abhishek" age={18} />
+      <Child name="User" age={18} />
     </div>
   );
 };

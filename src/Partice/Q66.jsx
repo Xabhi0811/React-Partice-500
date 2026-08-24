@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const initialUser = { name: "Abhishek", age: 18 };
+const initialUser = { name: "User", age: 18 };
 
 const ResetObject = () => {
   const [user, setUser] = useState(initialUser);

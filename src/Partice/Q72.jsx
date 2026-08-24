@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const NestedObjectUpdate = () => {
   const [user, setUser] = useState({
-    name: "Abhishek",
+    name: "User",
     address: { city: "Bhopal" },
   });
 

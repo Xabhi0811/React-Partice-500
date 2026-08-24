@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const MultipleStates = () => {
-  const [name, setName] = useState("Abhishek");
+  const [name, setName] = useState("User");
   const [age, setAge] = useState(18);
 
   return (

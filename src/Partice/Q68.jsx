@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const StateDesignChoice = () => {
-  const [profile, setProfile] = useState({ name: "Abhishek", age: 18 });
+  const [profile, setProfile] = useState({ name: "User", age: 18 });
   const [isOnline, setIsOnline] = useState(false);
 
   return (

@@ -1,5 +1,5 @@
 const Nameadd = () => {
-  const abhi = "Abhishek";
+  const abhi = "User";
   return <h2>Hello+{abhi}</h2>;
 };
 

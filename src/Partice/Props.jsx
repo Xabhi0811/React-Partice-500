@@ -5,8 +5,8 @@ const Greeting = (props) => {
 const Props = () => {
   return (
     <div>
-      <Greeting name="Abhishek" />
-      <Greeting name="Bittu" />
+      <Greeting name="User" />
+      <Greeting name="User Two" />
     </div>
   );
 };
