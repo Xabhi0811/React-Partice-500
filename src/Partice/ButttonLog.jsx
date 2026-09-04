@@ -11,6 +11,7 @@ const ButttonLog = () => {
     alert("hello from parent!");
   };
 
+  
   return (
     <div>
       <h1> Parent Component</h1>
