@@ -381,12 +381,14 @@ import Q352 from "./Partice/Q352";
 import Q353 from "./Partice/Q353";
 import Q354 from "./Partice/Q354";
 import Exercises from "./Partice/exercises";
+import Weather from "./Partice/Weather";
 
 const App = () => {
   const fruits = ["Apple", "Banana", "Mango", "Orange"];
 
   return (
     <div>
+       <Weather/>
       <Q2 />
       <Nameadd />
       <List />
