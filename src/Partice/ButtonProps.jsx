@@ -2,6 +2,7 @@ const Data = ({ text }) => {
   return <button>{text}</button>;
 };
 
+
 const ButtonProps = () => {
   return (
     <div>
