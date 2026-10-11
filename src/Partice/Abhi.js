@@ -10,7 +10,6 @@ function sum(...number){
 
 console.log(sum(10,20,50,40))
 
-
  let abhi=()=>{
   return a +b;
  }
