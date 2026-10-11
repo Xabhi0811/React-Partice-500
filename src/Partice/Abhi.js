@@ -38,7 +38,6 @@ console.log(sum(10,20,50,40))
   greet(hello);
 
 
-
   function greet(abhi){
     abhi();
   }
