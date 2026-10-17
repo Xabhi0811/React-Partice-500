@@ -5,8 +5,7 @@ const Tip = () => {
 	const [rate, setRate] = useState(15);
 	const total = Number(bill) + (Number(bill) * Number(rate)) / 100;
 
-	return (
-		
+	return (	
 		<>
 			<input
 				type="number"
