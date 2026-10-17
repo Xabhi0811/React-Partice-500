@@ -6,6 +6,7 @@ const Tip = () => {
 	const total = Number(bill) + (Number(bill) * Number(rate)) / 100;
 
 	return (
+		
 		<>
 			<input
 				type="number"
