@@ -7,6 +7,7 @@ const ThemeToggle = () => {
 		<button onClick={() => setDark(!dark)}>
 			{dark ? "Dark theme" : "Light theme"}
 		</button>
+		
 	);
 };
 
