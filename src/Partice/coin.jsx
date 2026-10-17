@@ -7,8 +7,7 @@ const Coin = () => {
 		<>
 			<output>{result}</output>
 			<button
-				onClick={() => setResult(Math.random() > 0.5 ? "Heads" : "Tails")}
-			>
+				onClick={() => setResult(Math.random() > 0.5 ? "Heads" : "Tails")}>
 				Flip coin
 			</button>
 		</>
