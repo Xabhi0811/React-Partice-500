@@ -6,5 +6,4 @@ const Button = ({ text, color, handleClick }) => {
   );
 };
 
-
 export default Button;
