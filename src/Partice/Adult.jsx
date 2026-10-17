@@ -5,7 +5,7 @@ const Adult = () => {
   return (
     <div>
       <h1>Age Checker</h1>
-      
+    
       <input
         type="number"
         value={age}
