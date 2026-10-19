@@ -9,4 +9,5 @@ const Q105 = () => {
   return <p>Width updates on resize</p>;
 };
 
+
 export default Q105;
