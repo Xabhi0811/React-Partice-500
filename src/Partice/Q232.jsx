@@ -11,6 +11,7 @@ const Q232 = () => {
     [],
   );
   return (
+    
     <button onClick={() => setCount((current) => current + 1)}>
       {value} {count}
     </button>
