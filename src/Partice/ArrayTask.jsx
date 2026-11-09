@@ -15,6 +15,7 @@ const ArrayTask = () => {
         Remove item
       </button>
       <output>{items.join(" | ")}</output>
+      
     </>
   );
 };
