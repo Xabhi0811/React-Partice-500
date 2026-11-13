@@ -2,6 +2,7 @@ const Status = ({ isLoggedIn }) => {
   return <div>{isLoggedIn && <h2>Welcome!</h2>}</div>;
 };
 
+
 const And = () => {
   return (
     <div>
